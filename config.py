@@ -1,7 +1,12 @@
 # config
 # for config stuff
 
-import secure
+
+try:
+	import secure
+except:
+	print "secure.py not found, loading insecure.py settings"
+	import insecure
 
 def get_mongo_properties():
 	return secure.MONGO_ACCESS
