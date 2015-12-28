@@ -1,0 +1,13 @@
+# Environment
+env/
+
+# Secure Files
+secure.py
+
+# Python garbage
+*.pyc
+
+# Mac garbage
+.DS_Store
+
+
