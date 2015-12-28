@@ -6,7 +6,7 @@ try:
 	import secure
 except:
 	print "secure.py not found, loading insecure.py settings"
-	import insecure
+	import insecure as secure
 
 def get_mongo_properties():
 	return secure.MONGO_ACCESS
